@@ -12,7 +12,7 @@ class DVD extends Media
         return year + ": " + title + " [DVD]";
 	}
 
-    public int subCompare(Media obj)
+    public int dvdCompare(Media obj)
     {
         DVD dvd = (DVD)obj;
         int titleCmp =  this.getTitle().compareTo(dvd.getTitle());

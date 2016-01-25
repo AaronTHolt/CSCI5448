@@ -12,10 +12,12 @@ class Book extends Media
         return getTitle() + " by " + getAuthor();
 	}
 
-    // @Override
-    // public int subCompare(Media obj)
-    // {
-    //     return this.getTitle().compareTo(obj.getTitle());
-    // }
+    public int bookCompare(Media obj)
+    {
+        Book book = (Book)obj;
+        int titleCmp =  this.getTitle().compareTo(book.getTitle());
+        int authorCmp = this.getAuthor().compareTo(book.getAuthor());
+        return (titleCmp != 0 ? titleCmp : authorCmp);
+    }
 }
 
