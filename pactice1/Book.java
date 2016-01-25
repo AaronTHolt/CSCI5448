@@ -19,5 +19,6 @@ class Book extends Media
         int authorCmp = this.getAuthor().compareTo(book.getAuthor());
         return (titleCmp != 0 ? titleCmp : authorCmp);
     }
+
 }
 
