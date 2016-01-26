@@ -20,5 +20,10 @@ class Book extends Media
         return (titleCmp != 0 ? titleCmp : authorCmp);
     }
 
+    // public int compareTo(Media obj)
+    // {
+    //     //if book, use book compare, otherwise use super.compareTo
+    // }
+
 }
 

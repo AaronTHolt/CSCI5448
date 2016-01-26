@@ -3,6 +3,17 @@ abstract class Media implements Comparable<Media>
     protected String title;
 	public String getTitle()  { return title; }
 
+    // public int compareTo(Media obj)
+    // {
+    //     //compare this class and obj class, 
+           //String myClassName = this.getClass().getName();
+           //String objClassName = obj.getClass().getName()
+           //int rerult = myClassName.compareTo(objClassName)
+           //if result == 0, result = this.compareTo(obj)
+           //return result
+    // }
+
+
     public int compareTo(Media obj)
     {
         // boolean type = typeCompare(this, obj);
