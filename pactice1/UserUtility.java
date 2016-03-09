@@ -6,4 +6,6 @@ public class UserUtility
         userName = fName.substring(0, 3) + lName.substring(0, 3);
         return userName;
     }
+
+    public int abc = 5;
 }

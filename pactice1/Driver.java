@@ -1,8 +1,14 @@
 import java.util.*;
 public class Driver
 {
+
+
 	public static void main(String[] args)
 	{
+		Media m = new DVD("hi", 25);
+		System.out.println(m.getYear());
+
+
 		ArrayList<Media> library = new ArrayList<Media>();
 		library.add(new Book("Dare to go Solo", "Elizabeth Boese"));
 		library.add(new DVD("Dare to go Solo", 2006));
