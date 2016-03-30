@@ -1,0 +1,4 @@
+Add these to makefiles...
+
+LIBS += -lGL -lQtOpenGL
+INCPATH += -I/usr/include/qt4/QtOpenGL

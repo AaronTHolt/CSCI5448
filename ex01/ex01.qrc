@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>ex01.vert</file>
+    <file>ex01.frag</file>
+    <file>suzanne.obj</file>
+    <file>suzanne.mtl</file>
+    <file>f-16.obj</file>
+    <file>f-16.mtl</file>
+</qresource>
+</RCC>
